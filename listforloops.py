@@ -46,7 +46,7 @@ print agent[2]
 # previous value.
 
 
-def replace_spy(list = [3]):
+def replace_spy(list):
     list[2] = list[2] + 1
     
 spy = [0,0,7]
@@ -58,3 +58,13 @@ spy = [0,0,7]
 replace_spy(spy)
 print spy
 #>>> [0,0,8]
+
+
+#testmode
+def inc(n):
+    n+=1
+    return n
+
+a = 3
+print inc(a)
+print a
