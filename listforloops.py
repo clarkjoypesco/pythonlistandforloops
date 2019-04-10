@@ -101,3 +101,19 @@ list = [1,2,3,4,5]
 print_all_elements(list)
 
 
+print 'Below code is using for loop in python!'
+def print_allfor_elements(p):
+    for e in p:
+        print e
+
+list = [1,2,3,4,5]
+print_allfor_elements(list)
+
+
+
+
+
+
+
+
+
