@@ -68,3 +68,36 @@ def inc(n):
 a = 3
 print inc(a)
 print a
+
+#Testing Length
+
+p = [1,2]
+p.append(3)
+p = p + [4,5]
+print len(p)
+
+#should print 5
+
+#Testing append
+p =[1,2]
+q = [3,4]
+p.append(q)
+
+#p = [1,2,[3,4]]
+print len(p)
+#should print 3
+print p
+
+
+#Finish the while expression so that this function prints all of the elements of p.
+
+def print_all_elements(p):
+    i = 0
+    while i < len(p):
+        print p[i]
+        i = i + 1
+
+list = [1,2,3,4,5]
+print_all_elements(list)
+
+
